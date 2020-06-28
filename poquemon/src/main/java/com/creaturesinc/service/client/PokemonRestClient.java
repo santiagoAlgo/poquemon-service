@@ -28,7 +28,7 @@ public class PokemonRestClient {
 		 
 		 
 		 try {
-			 resultEnt = restTemplate.exchange("https://pokeapi.co/api/v2/pokemon/"+pokemon, HttpMethod.GET,entity,String.class);
+			 resultEnt = restTemplate.exchange("https://pokeapi.co/api/v2/pokemon/"+pokemon.toLowerCase(), HttpMethod.GET,entity,String.class);
 		 }catch(Exception ex) {
 			 ex.printStackTrace();
 			 
