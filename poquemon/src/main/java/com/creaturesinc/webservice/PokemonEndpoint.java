@@ -1,4 +1,4 @@
-package com.creaturesinc;
+package com.creaturesinc.webservice;
 
 import java.util.ArrayList;
 import java.util.List;
